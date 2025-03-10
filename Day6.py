@@ -1,0 +1,21 @@
+print("MY LOGING SYSTEM")
+print("++++++++++++++++")
+username = input("Username > ")
+password = input("Password > ")
+print(" ")
+if username == "Katleho" and password == "Katleho21":
+    print("Hello there ",username,", what a lovely accent you have,")
+    print("you couls have charmed your way in here even without a password")
+    print(" ")
+    print("Have a great day.")
+    print(" ")
+    print("Don't forget to wear a hat in the sun!")
+elif username == "Mosotho" and password == "Mosotho2pointO":
+    print("Hello there ",username,", 🌟❄what a lovely accent you have,")
+    print("you couls have charmed your way in here even without a password")
+    print(" ")
+    print("Have a great day.")
+    print(" ")
+    print("Don't forget to wear a hat in the sun!")
+else:
+    print("\033[31m Unauthorized access")
